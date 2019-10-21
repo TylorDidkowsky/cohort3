@@ -1,6 +1,111 @@
-1) WRITE STUB
+1) WRITE STUB A, FUNCTION B,PARAMETURE C, RETURNS
 2) WRITE FAILING TEST
 3)WRITE ONLY CODE TO MAKE TEST PASS
 4)WRITE ANOTHER TEST
 5)REPEAT
 6)REFACTOR
+----------------------------------------------------
+
+TO PUSH FOR GIT
+1) GIT ADD space.
+2) GIT COMMIT space-M "name"
+3) GIT space PUSH
+-----------------------------------------------------
+Our next step is to create a good sample javascript file with lots of sample code. We will use this sample code in later exercises. 
+
+create two new files:
+src/javascript/syntax.js
+src/javascript/syntax.test.js
+copy and paste the section (below these bullet points) as comments for the code you are about to write in syntax.js
+check in your code and tell Roman or Larry it’s been checked in
+be creative; write tests and code to prove to yourself that you understand the concepts of each line. Remember the steps:
+write a stub
+write a test that fails
+write the code for the test to pass
+run the test
+repeat
+(we will soon start learning about a concept called refactoring)
+make sure your code and comments are very very very aesthetically pleasing. We will be comparing (but it’s not a competition). Comments should not have the details we can read in the code but should explain the approach or the concept. Work in pairs / groups to ensure you are incorporating everyone's great ideas. Be creative. Write some awesome code and tests and show off your results. We will be doing group code reviews.
+when debugging your code insert a good text description to describe where you are in the code and what parameter you are spitting out in your console logs. 
+
+--------------- Copy this section into your code syntax.js as comments --------
+
+define attributes / variables
+Sets the value of an attribute on the specified element. 
+ex: getAttribute();
+A variable is a named location for storing a value. That way an unpredictablevalue can be accessed through a predetermined name. 
+Variables are case sensitive x and X are differnt variables. 
+ex: var x = 10;
+var y = 20;
+var z = x=y;
+
+number
+You can have numbers as whole, intergires , exponent. 
+ex: var x= 3.14;
+var y = 5;
+var x = 123e5
+
+string
+A string ()function converts the value of an object to a string. 
+The string function returns the same value as to string()of the individual objects. 
+ex: "hello world";
+
+boolean
+it represents 2 values.
+ex: true/false, on/off, yes/no
+(10>9) returns true
+
+array
+To store multiple values in a singal variable. 
+ex: var car = ["sabb","volvo","gmc"];
+
+dictionary / objects
+An objects can be a real world object. ("car","aniaml");
+It is a instance of a class. 
+It is a state of a objects red, blue
+Objects have behaviour park, brake, 
+ex: Fan fanObject = new();     FAN IS JUST A OBJECT THAT I MADE UP. 
+    Fan fanObject2 = new();
+    SO IF I WANT TO ACESS THE VARIABLE.
+    fanObject.color
+    string fanColor = fanObject.color;
+   SO IF I WANT TO ACESS THE METHOD OF THE OBJECT 
+   fanObject.getBlades(); 
+
+undefined
+The gloabl undefined property represents the primitive value undefined. It is one of JS primitive types. 
+var x;
+if (x === undefined) {
+   // these statements execute
+}
+else {
+   // these statements do not execute
+}
+
+sample if / else 
+ex:
+int time = 22;
+if (time < 10) {
+  System.out.println("Good morning.");
+} else if (time < 20) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+
+functions
+parameters
+returns
+arrays
+add to the front
+add to the end
+update values
+loops 
+for
+for/in
+while
+do while
+forEach (with array and function)
+Objects / Dictionaries
+declare object
+lookup key to retrieve value
