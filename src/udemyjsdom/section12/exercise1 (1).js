@@ -46,3 +46,4 @@ if (true) {
   a = 2;
 }
 alert(a);
+a = 2;
