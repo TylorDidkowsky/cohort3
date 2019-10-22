@@ -2,6 +2,7 @@
 
 // 1. Create an object that has properties "username" and "password". Fill those values in with strings.
 var obj = function("username","password"); {
+	return function
 	}
 
 var obj = ["username",'password"];
