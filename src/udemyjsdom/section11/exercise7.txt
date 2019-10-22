@@ -1,11 +1,6 @@
 // Create an object and an array which we will use in our facebook exercise. 
 
 // 1. Create an object that has properties "username" and "password". Fill those values in with strings.
-var obj = function("username","password"); {
-	return function
-	}
-
-var obj = ["username",'password"];
 
 {
 username: "Tylor",
@@ -17,10 +12,12 @@ var database = [
 {
 	username: "Tylor",
 	pasword: "HI"
-],
+]
 username:
 // 3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
+
 var newsfeed = [
+
 {
 username: "Grant",
 timeline: "Come and say hi"},
@@ -32,4 +29,5 @@ timeline: "What is going on"},
 {
 username: "Jim",
 timeline: "Here we go"}
-]
+
+];
