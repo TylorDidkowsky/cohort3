@@ -1,0 +1,27 @@
+// using this array,
+// var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+
+//  Remove the Banana from the array.
+list.shift([0]);
+
+//  Put "Kiwi" at the end of the array.
+list.push("Kiwi");
+
+//  Remove "Apples" from the array.
+console.log(list[0][1]);
+
+//  Sort the array in reverse order. (Not alphabetical, but reverse
+// the current Array i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a'])
+console.log(list[0][1][2][3]);
+list add = ("b","c","a");
+
+you should have at the end:
+["Kiwi", "Oranges", "Blueberries"]
+console.log(list[0][1]);
+list add = ("Kiwi");
+
+// using this array,
+// var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+// access "Oranges".
+var array2 = (list[0][2]);
