@@ -1,0 +1,54 @@
+DOM Selectors
+--------------
+getElementsByTagName "This grabs tag names" Like a list - apple
+							- orange
+
+getElementsByClassName "This grabs classes" Like a second paragraph
+			<p class="second">No excuses</p>
+
+getElementById "The ID element comes prior to class and you can only have one ID" 
+		<p id="first">Get it done today</p>
+
+querySelector " I can select headers, list items, querry selector ONLY SELECTS THE FIRST ITEM YOU SELECTED.
+		BUT IF I USE QUERRY SELECTOR ALL THEN IT SELECTS ALL.
+
+querySelectorAll " I can select all the headers and list items"
+
+getAttribute " I need to select an element to get its attribute first." 
+		document.querrySelector("li").getAttribute("random");
+		{I am selecting the first item on the list(li)}
+		{Iam getting what ever attribute that is called "random"}
+***Getattribute can be anything like a image tag and it has width and height you can grab the values***
+
+setAttribute "Setting a attribute is changing the attribute to what you want it to be"
+	      document.querySelector("li").setAttribute("random","1000");
+	      <li random="1000">
+
+
+
+##Changing Styles
+style.{property} //ok "You can change your css in the querySelector-ex:background 
+		       BUT IT IS NOT A GOOD WAY OF DOING IT
+			
+
+className //best var h1 = document.querrySelector("h1")
+		   h1
+		    <h1>Shopping List<\h1>
+		      h1.className = "coolTitle"
+
+
+classList // .notebook
+	     .rice
+	     .....
+
+classList.add 
+classList.remove
+classList.toggle Means to go back. It does not remove the item. 
+
+##Bonus
+innerHTML //DANGEROUS
+
+parentElement
+children
+
+##It is important to CACHE selectors in variables
