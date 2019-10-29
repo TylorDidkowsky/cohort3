@@ -1,9 +1,20 @@
-1) WRITE STUB A, FUNCTION B,PARAMETURE C, RETURNS
+1) WRITE STUB A, FUNCTION B,PARAMETURE C, RETURNS (Problem solving code)
+
+                            SUM:(P1,P2)=>{
+                                RETURN0;
+                            }
+A STUB HAS A FUNCTION NAME AND RETURNS A DUMBY VALUE.
+
+
 2) WRITE FAILING TEST
 3)WRITE ONLY CODE TO MAKE TEST PASS
 4)WRITE ANOTHER TEST
 5)REPEAT
 6)REFACTOR
+test('hello world', () => {
+  console.log('hello world from calgary');
+});
+
 ----------------------------------------------------
 
 TO PUSH FOR GIT
@@ -11,6 +22,7 @@ TO PUSH FOR GIT
 2) GIT COMMIT space-M "name"
 3) GIT space PUSH
 -----------------------------------------------------
+
 Our next step is to create a good sample javascript file with lots of sample code. We will use this sample code in later exercises. 
 
 create two new files:
