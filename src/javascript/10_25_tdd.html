@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    enterFirstNumber<input id="enterFirstNumber": type"text" value=1><br />
+    enterSecondNumber<input id="enterSecondNumber": type"text"><br />
+    enterAnswer<input id = "Answer": type"text"><br />
+    <button id="idDoIt" type="button">Do It</button>
+    <script type="module" src="./scripts/10_25_tddmain.js"></script>
+    <script>
+        console.log('hello world');
+        var getfirst = document.getElementById('enterFirstNumber').value;
+        console.log('getfirst');
+        idDoIt.addEventListener('click', () => {
+          let getfirst = document.getElementById('enterFirstNumber').value;
+          console.log('click');
+          console.log(getfirst);
+
+          let getsecond = document.getElementById('enterSecondNumber').value;
+          cosole.log(getsecond);
+          <form id="cal">
+        <table border="1" id="tb">
+          <th colspan="4"><input type="text" id="calResult" /></th>
+          <tr align="center">
+
+              <input type="button" id="btnD" value="/" onclick="myFunc('/')" />
+
+              <input type="button" id="btnM" value="*" onclick="myFunc('*')" />
+
+              <input type="button" id="btnS" value="-" onclick="myFunc('-')" />
+          <tr align="center">
+            <td><input type="reset" id="btnC" value="C" onclick="clear()" /></td>
+            <td>
+              <input type="button" id="btn0" value="0" onclick="myFunc('0')" />
+            </td>
+            <td>
+              <input type="button" id="btnE" value="=" onclick="calculate()" />
+            </td>
+            <td>
+              <input type="button" id="btnP" value="+" onclick="myFunc('+')" />
+            </td>
+          </tr>
+        </table>
+
+        <input type="hidden" id="calResultHidden" />
+      </form>
+        });
+    </script>
+  </body>
+</html>
