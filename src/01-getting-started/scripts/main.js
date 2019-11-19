@@ -31,6 +31,8 @@ idDiv.addEventListener('click', () => {
   idAnswer.value = functions.div(userinput1, userinput2);
 });
 
-idTax.addEventListener('click', () => {
-  let userinput3 = parseInt(idGross.value);
+//Tax Calculator//
+
+idTaxCalc.addEventListener('click', () => {
+  idTax.textContent = '$' + functions.tax(idIncome.value);
 });
